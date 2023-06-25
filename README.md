@@ -2,6 +2,7 @@
 # Mekari Test - Rachmad Rinaldie
 
 This repository are being used to add all of my works related to tasks from Mekari.
+And first download my credentials in json for access to bigquery https://drive.google.com/file/d/1tnMbt3niamKqQRevAHYBDLkfO_8bJjZP/view?usp=sharing and after download it, put it inside of the project folder.
 
 
 
