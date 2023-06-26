@@ -62,7 +62,7 @@ Run the script manually
 
 
 ## BigQuery
-- Go to this link https://console.cloud.google.com/bigquery
+- Go to this link console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1sspheric-gearing-318714!2srachmadrinaldie_dataset
 
 - Please request to rachmad011@gmail.com for accessing my dataset, so i can give you some.
 
