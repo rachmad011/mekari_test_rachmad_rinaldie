@@ -15,7 +15,7 @@ with extract_all_data_detail as (
     , extract(YEAR from ts.date) year
   from `spheric-gearing-318714.rachmadrinaldie_dataset.timesheets` ts
   left join `spheric-gearing-318714.rachmadrinaldie_dataset.employees` ee on ts.employee_id = ee.employee_id
-  where ts.checkin is not null and ts.checkout is not null
+  where ts.checkin is not null and ts.checkout is not null and (ee.resign_date is null or ee.resign_date < ts.date)
   order by ts.timesheet_id asc, ee.branch_id asc, ee.employee_id asc) tt
   where (timestamp_diff(tt.checkout_ts, tt.checkin_ts, HOUR)) > 0
 )
